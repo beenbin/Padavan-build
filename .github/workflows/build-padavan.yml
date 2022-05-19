@@ -71,7 +71,7 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_ADBYBY=y" >> .config #adbyby plus+
         ##DNS服务##
         echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNS=y" >> .config #smartdns
-        echo "CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME=y" >> .config #adg DNS去AD
+        #echo "CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME=y" >> .config #adg DNS去AD
 
 
         ##内网穿透服务##
@@ -85,6 +85,9 @@ jobs:
         
         echo "CONFIG_FIRMWARE_INCLUDE_SCUTCLIENT=y" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_LRZSZ=y" >> .config
+        echo "CONFIG_FIRMWARE_INCLUDE_DOGCOM=y" >> .config
+        echo "CONFIG_FIRMWARE_INCLUDE_VLMCSD=y" >> .config
+        echo "CONFIG_FIRMWARE_INCLUDE_TTYD=y" >> .config
         
         ##流控QOS##
         echo "CONFIG_FIRMWARE_INCLUDE_SQM=y" >> .config #SQM QOS#CPU超频
