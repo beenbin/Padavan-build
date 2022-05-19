@@ -64,14 +64,14 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_V2RAY=y" >> .config #集成v2ray执行文件
         echo "CONFIG_FIRMWARE_INCLUDE_TROJAN=y" >> .config #集成trojan执行文件 ~1.2M
         echo "CONFIG_FIRMWARE_INCLUDE_SSOBFS=y" >> .config #simple-obfs混淆插件
-        echo "CONFIG_FIRMWARE_INCLUDE_HTTPS=y" >> .config
+        ##echo "CONFIG_FIRMWARE_INCLUDE_HTTPS=y" >> .config
         ##科学上网##
 
         ##广告管理##
         echo "CONFIG_FIRMWARE_INCLUDE_ADBYBY=y" >> .config #adbyby plus+
         ##DNS服务##
-        echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNS=y" >> .config #smartdns
-        echo "CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME=y" >> .config #adg DNS去AD
+        #echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNS=y" >> .config #smartdns
+        #echo "CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME=y" >> .config #adg DNS去AD
 
 
         ##内网穿透服务##
@@ -83,8 +83,8 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_ALDRIVER=y" >> .config  #ALDRIVER  ~3m
         echo "CONFIG_FIRMWARE_INCLUDE_MENTOHUST=y" >> .config #mentohust
         
-        echo "CONFIG_FIRMWARE_INCLUDE_SCUTCLIENT=y" >> .config
-        echo "CONFIG_FIRMWARE_INCLUDE_LRZSZ=y" >> .config
+        ##echo "CONFIG_FIRMWARE_INCLUDE_SCUTCLIENT=y" >> .config
+        ##echo "CONFIG_FIRMWARE_INCLUDE_LRZSZ=y" >> .config
         
         ##流控QOS##
         echo "CONFIG_FIRMWARE_INCLUDE_SQM=y" >> .config #SQM QOS#CPU超频
