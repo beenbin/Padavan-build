@@ -58,7 +58,8 @@ jobs:
         sed -i 's/CONFIG_FIRMWARE_INCLUDE_DOGCOM=y/CONFIG_FIRMWARE_INCLUDE_DOGCOM=n/g' .config
         sed -i 's/CONFIG_FIRMWARE_INCLUDE_VLMCSD=y/CONFIG_FIRMWARE_INCLUDE_VLMCSD=n/g' .config
         sed -i 's/CONFIG_FIRMWARE_INCLUDE_TTYD=y/CONFIG_FIRMWARE_INCLUDE_TTYD=n/g' .config
-        sed -i 's/CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME=y/CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME=n/g' .config
+        sed -i 's/CONFIG_FIRMWARE_INCLUDE_LRZSZ=y/CONFIG_FIRMWARE_INCLUDE_LRZSZ=n/g' .config
+        #sed -i 's/CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME=y/CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME=n/g' .config
         ######################################################################
         #以下选项是定义你需要的功能（y=集成,n=忽略），重新写入到.config文件
         ######################################################################
@@ -77,7 +78,7 @@ jobs:
        
         ##DNS服务##
         echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNS=y" >> .config #smartdns
-        echo "CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME=y" >> .config #adg DNS去AD
+        #echo "CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME=y" >> .config #adg DNS去AD
         ##DNS服务##
 
 
